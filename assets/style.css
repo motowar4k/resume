@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+}
+.h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.margin-top-35{
+    margin-top: 35px;
+}
+
+.margin-top-50{
+    margin-top: 50px;
+}
+
+.margin-top-70{
+    margin-top: 70px;
+}
+
+body {
+    margin: 0 21%;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: right;
+    margin-top: 4%;
+}
+
+.header-menu div {
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.block-full-width {
+    width: 100%;
+}
+
+.block-medium-width {
+    width: 80%;
+    float: left;
+}
+
+.block-low-width {
+    width: 20%;
+    float: right;
+}
+
+.block-low-width.social-media div {
+    margin-top: 10px;
+}
+
+.block-low-width.social-media img {
+    margin-right: 5px;
+}
+
+
+.block-medium-width .profile-description {
+
+    padding-right: 45px;
+}
+
+.experience-block .h2{
+    margin-left: 50px;
+}
+.experience-wrapper {
+    margin-top: 50px;
+}
+
+.experience-wrapper div{
+    margin-top: 9px;
+}
+
+.experience-wrapper .experience-date {
+    color: grey;
+}
+.experience-wrapper .experience-job {
+    font-weight: 600;
+    display: flex;
+}
+.experience-wrapper .experience-description {
+    padding-right: 50px;
+}
+.experience-wrapper .experience-link {
+    color: blue;
+    text-decoration: underline;
+}
+.experience-wrapper .experience-place.place-icon{
+    display: flex;
+}
+.experience-wrapper .experience-place.place-icon > * {
+    margin-right: 10px;
+}
+.education-block{
+    text-align: center;
+}
+.education-wrapper {
+    margin-top: 50px;
+}
+.education-wrapper div{
+    margin-top: 9px;
+}
+.education-wrapper div.education-profile{
+    font-weight: 600;
+}
+
+footer {
+    float: left;
+    margin-bottom: 70px;
+}
+
+footer .skill-wrapper{
+    display: flex;
+    margin-top: 30px;
+}
+
+footer .skill-box {
+    width: 25%;
+}
+
+footer .skill-box {
+    width: 25%;
+}
+
+footer .skill-box > * {
+    margin-top: 10px;
+}
+
+footer .skill-box .skill-title {
+    font-weight: 600;
+}
+
+
+
